@@ -6,3 +6,7 @@ This repository contains the implementation of:
 - Memory forecasting module
 - Hotspot detection
 - CSV export and workload testing
+
+## Run Instructions
+Compile: g++ -std=c++17 src/aipo_simulator.cpp -O2 -o aipo_sim.exe
+Run: .ipo_sim.exe traces\sample_burst.txt

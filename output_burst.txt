@@ -1,0 +1,54 @@
+
+--- Analysis at t=100 ms ---
+Top CPU consumers:
+ P4 cpu_ms=30 mem=3000 io=0.6
+ P2 cpu_ms=12 mem=4000 io=0.4
+ P1 cpu_ms=8 mem=5000 io=0.2
+Avg CPU util (recent 200ms) = 60.83%
+Memory slope = -28.8385 kb/ms. Forecast in 500ms = 10581 kb
+P1 classified: Mixed
+P2 classified: Mixed
+P4 classified: CPU-bound
+Gantt snapshot (pid:remaining_ms): [P1:42ms] [P2:28ms] [P3:60ms] [P5:80ms] 
+
+--- Analysis at t=200 ms ---
+Top CPU consumers:
+ P1 cpu_ms=48 mem=5000 io=0.2000
+ P2 cpu_ms=40 mem=4000 io=0.4000
+ P4 cpu_ms=30 mem=3000 io=0.6000
+Avg CPU util (recent 200ms) = 60.86%
+Memory slope = -59.9198 kb/ms. Forecast in 500ms = 0 kb
+P1 classified: CPU-bound
+P2 classified: CPU-bound
+P4 classified: CPU-bound
+Gantt snapshot (pid:remaining_ms): [P1:2ms] [P3:60ms] [P5:80ms] 
+
+--- Analysis at t=300 ms ---
+Top CPU consumers:
+ P3 cpu_ms=60 mem=6000 io=0.1000
+ P1 cpu_ms=50 mem=5000 io=0.2000
+ P2 cpu_ms=40 mem=4000 io=0.4000
+Avg CPU util (recent 200ms) = 41.45%
+Memory slope = -89.8796 kb/ms. Forecast in 500ms = 0 kb
+P1 classified: CPU-bound
+P2 classified: CPU-bound
+P3 classified: CPU-bound
+P4 classified: CPU-bound
+P5 classified: Mixed
+Gantt snapshot (pid:remaining_ms): [P5:56ms] 
+
+--- Analysis at t=371 ms ---
+Top CPU consumers:
+ P5 cpu_ms=80 mem=10000 io=0.2000
+ P3 cpu_ms=60 mem=6000 io=0.1000
+ P1 cpu_ms=50 mem=5000 io=0.2000
+Avg CPU util (recent 200ms) = 27.18%
+Memory slope = -54.5455 kb/ms. Forecast in 500ms = 0 kb
+P1 classified: CPU-bound
+P2 classified: CPU-bound
+P3 classified: CPU-bound
+P4 classified: CPU-bound
+P5 classified: CPU-bound
+Gantt snapshot (pid:remaining_ms): 
+
+Simulation finished. CSV saved to analysis.csv (in current folder).

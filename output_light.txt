@@ -1,0 +1,91 @@
+
+--- Analysis at t=100 ms ---
+Top CPU consumers:
+ P1 cpu_ms=90 mem=15000 io=0.1
+ P3 cpu_ms=0 mem=8000 io=0.3
+ P2 cpu_ms=0 mem=12000 io=0.2
+Avg CPU util (recent 200ms) = 27.27%
+Memory slope = 0.0000 kb/ms. Forecast in 500ms = 15000 kb
+P1 classified: Mixed
+Gantt snapshot (pid:remaining_ms): [P1:110ms] 
+
+--- Analysis at t=200 ms ---
+Top CPU consumers:
+ P1 cpu_ms=180 mem=15000 io=0.1000
+ P3 cpu_ms=0 mem=8000 io=0.3000
+ P2 cpu_ms=0 mem=12000 io=0.2000
+Avg CPU util (recent 200ms) = 29.84%
+Memory slope = 65.4545 kb/ms. Forecast in 500ms = 54000 kb
+P1 classified: CPU-bound
+Gantt snapshot (pid:remaining_ms): [P1:20ms] [P2:100ms] 
+
+--- Analysis at t=300 ms ---
+Top CPU consumers:
+ P1 cpu_ms=200 mem=15000 io=0.1000
+ P2 cpu_ms=64 mem=12000 io=0.2000
+ P3 cpu_ms=0 mem=8000 io=0.3000
+Avg CPU util (recent 200ms) = 32.38%
+Memory slope = -74.9562 kb/ms. Forecast in 500ms = 0 kb
+P1 classified: CPU-bound
+P2 classified: Mixed
+Gantt snapshot (pid:remaining_ms): [P2:36ms] 
+
+--- Analysis at t=400 ms ---
+Top CPU consumers:
+ P1 cpu_ms=200 mem=15000 io=0.1000
+ P2 cpu_ms=100 mem=12000 io=0.2000
+ P3 cpu_ms=0 mem=8000 io=0.3000
+Avg CPU util (recent 200ms) = 19.05%
+Memory slope = -23.4032 kb/ms. Forecast in 500ms = 0 kb
+P1 classified: CPU-bound
+P2 classified: CPU-bound
+Gantt snapshot (pid:remaining_ms): [P3:150ms] 
+
+--- Analysis at t=500 ms ---
+Top CPU consumers:
+ P1 cpu_ms=200 mem=15000 io=0.1000
+ P2 cpu_ms=100 mem=12000 io=0.2000
+ P3 cpu_ms=0 mem=8000 io=0.3000
+Avg CPU util (recent 200ms) = 19.05%
+Memory slope = -23.4032 kb/ms. Forecast in 500ms = 0 kb
+P1 classified: CPU-bound
+P2 classified: CPU-bound
+Gantt snapshot (pid:remaining_ms): [P3:150ms] 
+
+--- Analysis at t=600 ms ---
+Top CPU consumers:
+ P1 cpu_ms=200 mem=15000 io=0.1000
+ P2 cpu_ms=100 mem=12000 io=0.2000
+ P3 cpu_ms=70 mem=8000 io=0.3000
+Avg CPU util (recent 200ms) = 21.21%
+Memory slope = 0.0000 kb/ms. Forecast in 500ms = 8000 kb
+P1 classified: CPU-bound
+P2 classified: CPU-bound
+P3 classified: Mixed
+Gantt snapshot (pid:remaining_ms): [P3:80ms] 
+
+--- Analysis at t=700 ms ---
+Top CPU consumers:
+ P1 cpu_ms=200 mem=15000 io=0.1000
+ P3 cpu_ms=140 mem=8000 io=0.3000
+ P2 cpu_ms=100 mem=12000 io=0.2000
+Avg CPU util (recent 200ms) = 22.22%
+Memory slope = 0.0000 kb/ms. Forecast in 500ms = 8000 kb
+P1 classified: CPU-bound
+P2 classified: CPU-bound
+P3 classified: CPU-bound
+Gantt snapshot (pid:remaining_ms): [P3:10ms] 
+
+--- Analysis at t=714 ms ---
+Top CPU consumers:
+ P1 cpu_ms=200 mem=15000 io=0.1000
+ P3 cpu_ms=150 mem=8000 io=0.3000
+ P2 cpu_ms=100 mem=12000 io=0.2000
+Avg CPU util (recent 200ms) = 22.22%
+Memory slope = -41.0628 kb/ms. Forecast in 500ms = 0 kb
+P1 classified: CPU-bound
+P2 classified: CPU-bound
+P3 classified: CPU-bound
+Gantt snapshot (pid:remaining_ms): 
+
+Simulation finished. CSV saved to analysis.csv (in current folder).
