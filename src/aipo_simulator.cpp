@@ -1,3 +1,4 @@
+// AIPAO simulator: small header comment
 // src/aipo_simulator.cpp
 // Patched AI-powered Performance Analyzer for OS Processes
 // Adds: stable regression, clamped forecasts, robust analysis loop, CSV export
