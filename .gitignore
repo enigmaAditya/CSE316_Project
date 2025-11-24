@@ -1,0 +1,5 @@
+# Ignore build outputs and editor configs
+*.exe
+.vscode/
+tempCodeRunnerFile.*
+
